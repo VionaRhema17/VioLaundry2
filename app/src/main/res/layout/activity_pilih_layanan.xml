@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".transaksi.activity_pilih_layanan">
+
+    <!-- Search Bar -->
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search_viewPL"
+        android:layout_width="0dp"
+        android:textColor="@color/text"
+        android:background="@drawable/radius"
+        android:layout_height="wrap_content"
+        android:queryHint="Cari Data Pelanggan"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/rv_data_PL"
+        android:layout_margin="8dp" />
+
+    <TextView
+        android:id="@+id/TvKosongPP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data layanan kosong"
+        android:visibility="gone"
+        android:padding="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <!-- RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_data_PL"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search_viewPL"
+        tools:listitem="@layout/card_pilih_layanan" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
