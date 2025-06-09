@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/CvCard_Tambahan"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="17dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Header ID -->
+        <RelativeLayout
+            android:id="@+id/HeaderID"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:background="@color/button">
+
+            <TextView
+                android:id="@+id/TvCard_ID_Tambahan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="8dp"
+                android:text="ID Tambahan"
+                android:textColor="@color/text"
+                android:textSize="18dp"
+                android:textStyle="italic" />
+        </RelativeLayout>
+
+        <!-- Isi konten tambahan -->
+        <LinearLayout
+            android:id="@+id/LL1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@+id/HeaderID"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/TvCard_Nama_Tambahan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="5dp"
+                android:text="Nama Tambahan"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TvCard_Harga_Tambahan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:text="Harga :"
+                android:textSize="17dp" />
+        </LinearLayout>
+
+        <!-- Tombol Hapus -->
+        <ImageView
+            android:id="@+id/btnHapusTambahan"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/HeaderID"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:clickable="true"
+            android:textColor="@color/text"
+            android:contentDescription="Hapus"
+            android:focusable="true"
+            android:src="@drawable/layanan" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

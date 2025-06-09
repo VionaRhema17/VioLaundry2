@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    android:id="@+id/CardPegawai"
+    app:cardCornerRadius="16dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:background="@color/button">
+
+        <TextView
+            android:id="@+id/tvCARD_PEGAWAI_ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="8dp"
+            android:text="ID PEGAWAI"
+            android:textColor="@color/text"
+            android:textSize="18dp"
+            android:textStyle="italic" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tvCARD_PEGAWAI_Nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Nama"
+            android:textColor="@color/text"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvCARD_PEGAWAI_Almt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Alamat"
+            android:textSize="17dp"
+            android:textColor="@color/text"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:id="@+id/tvCARD_PEGAWAI_NoHP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="No Hp"
+            android:textColor="@color/text"
+            android:textSize="17dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:id="@+id/tvCARD_PEGAWAI_cabang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Cabang"
+            android:textColor="@color/text"
+            android:textSize="18dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:id="@+id/tvCARD_PEGAWAI_daftar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Terdaftar"
+            android:textColor="@color/text"
+            android:textSize="18dp"
+            android:textStyle="normal"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_HUBUNGI_pegawai"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="Hubungi"
+                android:textSize="18dp"
+                android:textColor="@color/text"
+                android:backgroundTint="@color/button"/>
+
+            <Button
+                android:id="@+id/btn_LIHAT_pegawai"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:text="Lihat"
+                android:textColor="@color/text"
+                android:textSize="18dp"
+                android:backgroundTint="@color/button"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
