@@ -24,7 +24,7 @@
                 android:id="@+id/TvCard_ID_PP"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ID_P_Pelanggan"
+                android:text="@string/ID_Pelanggan"
                 android:textColor="@color/text"
                 android:textSize="18sp"
                 android:textStyle="italic" />
@@ -41,7 +41,7 @@
                 android:id="@+id/TvCard_NamaP_Pelanggan"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Nama Pelanggan"
+                android:text="@string/Nama"
                 android:textColor="@color/text"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -51,7 +51,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
-                android:text="Alamat :"
+                android:text="@string/Alamat"
                 android:textColor="@color/text"
                 android:textSize="16sp" />
 
@@ -60,7 +60,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
-                android:text="No HP :"
+                android:text="@string/HP"
                 android:textColor="@color/text"
                 android:textSize="16sp" />
         </LinearLayout>

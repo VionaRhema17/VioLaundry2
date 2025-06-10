@@ -48,7 +48,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="Cabang"
+                        android:text="@string/Cabang"
                         android:textColor="@color/text"
                         android:textSize="16dp"
                         android:textStyle="normal" />
@@ -63,7 +63,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="ID Transaksi"
+                            android:text="@string/ID_Transaksi"
                             android:textColor="@color/text"
                             android:textSize="16dp" />
 
@@ -86,7 +86,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Tanggal"
+                            android:text="@string/Tanggal"
                             android:textColor="@color/text" />
 
                         <TextView
@@ -108,7 +108,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Pesanan"
+                            android:text="@string/Pesanan"
                             android:textColor="@color/text" />
 
                         <TextView
@@ -130,7 +130,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Karyawan"
+                            android:text="@string/Pegawai"
                             android:textColor="@color/text" />
 
                         <TextView
@@ -161,7 +161,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="15dp"
                             android:layout_weight="1"
-                            android:text="Nama Layanan"
+                            android:text="@string/TV_NamaLayanan"
                             android:textColor="@color/text"
                             android:textSize="17dp"
                             android:textStyle="bold" />
@@ -171,7 +171,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="15dp"
-                            android:text="Harga"
+                            android:text="@string/Harga"
                             android:textColor="@color/text"
                             android:textSize="16dp"
                             android:textStyle="bold" />
@@ -188,7 +188,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="15dp"
-                        android:text="Rincian Tambahan"
+                        android:text="@string/Rincian_Tambahan"
                         android:textColor="@color/text"
                         android:textSize="16dp"
                         android:textStyle="bold" />
@@ -256,7 +256,7 @@
                             android:paddingStart="8dp"
                             android:textColor="@color/text"
                             android:layout_gravity="center"
-                            android:text="subtotal tambahan"
+                            android:text="@string/subtotal"
                             android:textSize="16sp" />
 
                         <TextView
@@ -292,7 +292,7 @@
                             android:textStyle="bold"
                             android:paddingStart="8dp"
                             android:textColor="@color/text"
-                            android:text="Total Bayar"
+                            android:text="@string/Total_Bayar"
                             android:textSize="20sp" />
 
                         <TextView
@@ -332,7 +332,7 @@
                             android:id="@+id/kirimWA"
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
-                            android:text="Kirim WhatsApp"
+                            android:text="@string/Kirim"
                             android:layout_marginEnd="5dp"
                             android:layout_marginStart="5dp"
                             android:layout_marginBottom="30dp"
@@ -342,7 +342,7 @@
                             android:id="@+id/cetak"
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
-                            android:text="Cetak"
+                            android:text="@string/Cetak"
                             android:layout_marginStart="5dp"
                             android:layout_marginBottom="30dp"
                             android:layout_marginEnd="5dp"

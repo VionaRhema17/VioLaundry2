@@ -24,7 +24,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="15dp"
                 android:layout_centerVertical="true"
-                android:text="ID"
+                android:text="@string/ID_Layanan"
                 android:textColor="@color/text"
                 android:textSize="16sp"
                 android:textStyle="italic" />
@@ -42,7 +42,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Nama Layanan"
+                android:text="@string/Nama"
                 android:textColor="@color/text"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -52,7 +52,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="Harga :"
+                android:text="@string/Harga"
                 android:textColor="@color/text"
                 android:textSize="17sp"
                 android:textStyle="normal" />

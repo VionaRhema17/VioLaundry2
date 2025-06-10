@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
             android:layout_marginTop="8dp"
-            android:text="ID Tambahan"
+            android:text="@string/ID_Tambahan"
             android:textColor="@color/text"
             android:textSize="18dp"
             android:textStyle="italic" />
@@ -36,7 +36,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:text="Nama Tambahan :"
+            android:text="@string/Nama"
             android:textColor="@color/text"
             android:textSize="18dp"
             android:textStyle="bold" />
@@ -48,7 +48,7 @@
             android:layout_marginStart="8dp"
             android:textColor="@color/text"
             android:layout_marginTop="5dp"
-            android:text="Harga :"
+            android:text="@string/Harga"
             android:textStyle="normal"
             android:textSize="17dp"/>
 

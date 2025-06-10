@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
             android:layout_marginTop="8dp"
-            android:text="ID PEGAWAI"
+            android:text="@string/ID_Pegawai"
             android:textColor="@color/text"
             android:textSize="18dp"
             android:textStyle="italic" />
@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:text="Nama"
+            android:text="@string/Nama"
             android:textColor="@color/text"
             android:textSize="18dp"
             android:textStyle="bold" />
@@ -47,7 +47,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:text="Alamat"
+            android:text="@string/Alamat"
             android:textSize="17dp"
             android:textColor="@color/text"
             android:textStyle="normal"/>
@@ -58,7 +58,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:text="No Hp"
+            android:text="@string/HP"
             android:textColor="@color/text"
             android:textSize="17dp"
             android:textStyle="normal"/>
@@ -69,7 +69,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:text="Cabang"
+            android:text="@string/Cabang"
             android:textColor="@color/text"
             android:textSize="18dp"
             android:textStyle="normal"/>
@@ -80,7 +80,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:text="Terdaftar"
+            android:text="@string/Terdaftar"
             android:textColor="@color/text"
             android:textSize="18dp"
             android:textStyle="normal"/>
@@ -98,7 +98,7 @@
                 android:id="@+id/btn_HUBUNGI_pegawai"
                 android:layout_width="140dp"
                 android:layout_height="wrap_content"
-                android:text="Hubungi"
+                android:text="@string/Hubungi"
                 android:textSize="18dp"
                 android:textColor="@color/text"
                 android:backgroundTint="@color/button"/>
@@ -108,7 +108,7 @@
                 android:layout_width="140dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="15dp"
-                android:text="Lihat"
+                android:text="@string/Lihat"
                 android:textColor="@color/text"
                 android:textSize="18dp"
                 android:backgroundTint="@color/button"/>
